@@ -1,8 +1,8 @@
 # Directories
-data/
-logs/
+#data/
+#logs/
 
 # Files
-*.pfx
-*.conf
-*.jks
+#*.pfx
+#*.conf
+#*.jks
