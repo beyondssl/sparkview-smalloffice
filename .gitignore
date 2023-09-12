@@ -1,6 +1,6 @@
 # Directories
-#data/
-#logs/
+data/
+logs/
 
 # Files
 .DS_Store
