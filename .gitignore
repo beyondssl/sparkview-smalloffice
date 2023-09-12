@@ -3,6 +3,7 @@ data/
 logs/
 
 # Files
+.DS_Store
 *.pfx
 *.conf
 *.jks
