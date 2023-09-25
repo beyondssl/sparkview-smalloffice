@@ -1,0 +1,431 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#frmLogin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 19px);
+}
+
+.container {
+    background-color: #f8f8f8;
+    max-width: 600px;
+    flex: 0 1 100%;
+    padding: 48px 40px 36px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,.3);
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 30%);
+}
+
+.containerTop {
+    flex: 0 1 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.login-logo {
+    display: inline-block;
+    flex: 0 1 220px;
+    height: auto;
+    max-width: 220px;
+}
+
+.container-top-right {
+    flex: 0 1 calc(100% - 290px);
+}
+
+.containerTop h1 {
+    font-weight: bold;
+    line-height: 1.3333;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #0075bf;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.containerTop h2 {
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.containerCenter {
+    flex: 0 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fieldWrapper {
+    flex: 0 1 100%;
+    margin-bottom: 10px;
+}
+
+.fieldWrapper input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #202124;
+    font-size: 16px;
+    padding: 13px 15px;
+    z-index: 1;
+    font-family: sans-serif;
+    line-height: 24px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    display: block;
+}
+
+.fieldWrapper input:focus {
+    outline: none;
+    border: 1px solid #0075bf;
+}
+
+.fieldWrapper-submit {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.fieldWrapper input[type="submit"] {
+    transition: all .3s;
+    border: none;
+    background: #0075bf;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    padding: 6px 24px;
+    font-size: 14px;
+}
+
+.fieldWrapper input[type="submit"]:hover {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    background: #0075bf;
+}
+
+.containerBottom {
+    margin-top: 20px;
+}
+
+.containerBottom p {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    color: #5f6368;
+}
+
+.containerBottom a {
+    color: #5f6368;
+    text-decoration: underline;
+}
+
+.programsHeader {
+    margin-bottom: 20px;
+}
+
+.programsInner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 900px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 1.5em;
+    padding: 48px 40px 36px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    background: #f8f8f8;
+}
+
+.programsInner p {
+    width: 100%;
+    float: left;
+    color: #5f6368;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#programs {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.floatLeft {
+    float: left;
+    width: 100%;
+    color: #202124;
+}
+
+.floatLeft a {
+    color: #202124;
+}
+
+#login {
+    border: none !important;
+    width: 100%;
+    height: 100%;
+    background: rgb(51, 51, 51);
+}
+
+.containerPrograms {
+    width: 100%;
+}
+
+.icon {
+    flex: 0 1 calc(16.6666666% - 10px);
+    height: auto;
+    text-align: center;
+    padding: 1em;
+    vertical-align: middle;
+    transition: all .3s;
+    margin-bottom: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    border: 1px solid #0075bf;
+}
+
+.icon img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+#twofainfo,
+#twofacode,
+#settingsDiv {
+	border-color: #fff !important;
+	padding: 0;
+}
+
+.twofa-inner {
+	padding: 48px 40px 36px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    background-color: #f8f8f8;
+}
+
+.settings-inner {
+	padding: 48px 40px 36px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    width: 500px;
+    max-width: 100%;
+    background: #f8f8f8;
+}
+
+.twofa-inner p,
+.settings-inner p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.twofa-inner input {
+    width: 100%;
+    box-sizing: border-box;
+    color: #202124;
+    font-size: 16px;
+    padding: 13px 15px;
+    z-index: 1;
+    font-family: sans-serif;
+    background-color: #fff;
+    line-height: 24px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    display: block;
+}
+
+.settings-inner input {
+    width: 100%;
+    box-sizing: border-box;
+    color: #202124;
+    font-size: 16px;
+    padding: 13px 15px;
+    z-index: 1;
+    font-family: sans-serif;
+    background-color: #fff;
+    line-height: 24px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.twofa-inner input:focus,
+.settings-inner input:focus {
+    outline: none;
+    border: 1px solid #0075bf;
+}
+
+.twofa-inner input[type="button"],
+.settings-inner input[type="button"],
+.settings-inner input[type="submit"] {
+    transition: all .3s;
+    border: none;
+    background: #0075bf;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    padding: 6px 24px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.twofa-inner input[type="button"]:hover,
+.settings-inner input[type="button"]:hover,
+.settings-inner input[type="submit"]:hover {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    background: #0075bf;
+}
+
+.twofa-submit-container {
+    text-align: left;
+}
+
+.programs-logo {
+    width: 220px;
+    display: block;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.programs-bottom-button-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.programs-bottom-button-container input[type="button"] {
+    transition: all .3s;
+    border: none;
+    background: #0075bf;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    padding: 6px 24px;
+    font-size: 14px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 24px;
+    outline: none;
+}
+
+.programs-bottom-button-container input[type="button"]:hover {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    background: #0075bf;
+}
+
+select[name="keyboard"] {
+    box-sizing: border-box;
+    color: #202124;
+    font-size: 16px;
+    padding: 13px 15px;
+    z-index: 1;
+    font-family: sans-serif;
+    background-color: #fff;
+    line-height: 24px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    display: inline-block;
+}
+
+select[name="keyboard"]:focus {
+    outline: none;
+    border: 1px solid #0075bf;
+}
+
+.programs-checkbox-container {
+    display: block;
+    margin-top: 20px;
+    color: #202124;
+    display: flex;
+    align-items: center;
+}
+
+.programs-checkbox-container input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    color: #202124;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    font-family: sans-serif;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.programs-checkbox-container input[type="checkbox"]::after {
+    content: '';
+    background-image: url(/fakturaxp/fakturaxp-check.svg);
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.programs-checkbox-container input[type="checkbox"]:checked::after {
+    opacity: 1;
+}
+
+.programs-checkbox-container input[type="checkbox"]#multiMon {
+    margin-left: 30px;
+}
+
+#settings {
+    cursor: pointer;
+    width: auto;
+    height: 24px;
+}
