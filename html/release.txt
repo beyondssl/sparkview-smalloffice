@@ -1,3 +1,25 @@
+Build 1041
+1. VNC: Fixed surface.scaleTo() doesn't work on player issue.
+
+Build 1040
+1. VNC: Fixed NullPointer issue with rec.end.exec on session recording
+
+Build 1039
+1. VNC: Allow directory in __record_name parameter for session recording.
+
+Build 1038
+1. 2FA for Password change.
+2. Password for 2FA deactivation.
+3. 2FA brute force and replay protection.
+4. Clean gateway session when user log off.
+5. Empty password input after user log in.
+6. Right click to paste on Telnet (Doesn't open history dialog anymore).
+7. hi5.appcfg.persistentId to enable/disable persistent session id (disabled by default).
+8. Make sure same warming message return when user credentials are wrong.
+9. Password change is disabled for Domain users.
+10. Fixed wrong "Last Modified" time issue for file uploading (Drive redirection, sftp).
+
+
 Build 1037
 1. Proxy: Fixed websocket proxy issue introduced in 1035.
 
